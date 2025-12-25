@@ -16,6 +16,4 @@ spring:
         jdbc:
           time_zone: UTC
 
-  jackson:
-    time-zone: UTC
 
