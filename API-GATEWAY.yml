@@ -1,0 +1,10 @@
+security:
+  role-rules:
+    - path: /admin/**
+      roles: ADMIN
+
+    - path: /products/**
+      roles: USER,ADMIN
+
+    - path: /orders/**
+      roles: USER,ADMIN
