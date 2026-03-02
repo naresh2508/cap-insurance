@@ -8,7 +8,7 @@ eureka:
       defaultZone: http://service-registry:8761/eureka
 message: Hello from Config Server
 gateway:
-  url: http://api-gateway:8084
+  url: http://localhost:8084
 
 
 
